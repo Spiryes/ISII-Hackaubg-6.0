@@ -36,7 +36,7 @@ nav {
 
 .logo img {
     max-width: 100px;
-    color: white;
+    margin-right: 70px;
 }
 
 footer {
@@ -87,6 +87,11 @@ footer {
     .right-links a {
         margin-right: 0;
         margin-bottom: 10px; /* Adjust margin */
+    }
+
+    .logo img {
+        
+        margin-right: 5%; /* Adjust margin-right percentage */
     }
 }
 
