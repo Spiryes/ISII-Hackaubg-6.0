@@ -36,6 +36,39 @@ nav {
 
 .logo img {
     max-width: 100px;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerRightMenu {
+    margin-right: 20px;
+}
+
+.fMenuTitle {
+    margin-bottom: 10px;
+}
+
+.fIcons {
+    display: flex;
+}
+
+.fIcon {
+    width: 30px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -56,3 +89,4 @@ nav {
         margin-bottom: 10px; /* Adjust margin */
     }
 }
+
