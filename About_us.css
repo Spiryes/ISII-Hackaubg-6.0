@@ -3,6 +3,44 @@ body {
   
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Padding on top and bottom */
+  background-color: #111;
+  color: white;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+}
+
+.left-links a,
+.right-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Add margin to the second link on both left and right sides */
+.left-links a:nth-child(2),
+.right-links a:nth-child(2) {
+  margin-left: 150px;
+}
+
+.left-links a:nth-child(1) {
+  margin-left: 50px;
+}
+.right-links a:nth-child(2){
+  margin-right: 50px;
+}
+
+.logo img {
+  max-width: 100px;
+  margin-right: 70px;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -77,4 +115,28 @@ p.padding_left{background-color: transparent;
 h1.padding_bottom{
 padding-bottom: 40px;
 padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0; /* Adjust padding */
+  }
+
+  .left-links,
+  .right-links {
+      margin: 10px 0; /* Adjust margin */
+  }
+
+  .left-links a,
+  .right-links a {
+      margin-right: 0;
+      margin-bottom: 10px; /* Adjust margin */
+  }
+
+  .logo img {
+      
+      margin-right: 5%; /* Adjust margin-right percentage */
+  }
 }
