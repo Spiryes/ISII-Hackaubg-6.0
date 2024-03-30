@@ -52,11 +52,9 @@ footer {
 .footer {
     display: flex;
     justify-content: flex-end;
-}
-
-.footerRightMenu {
     margin-right: 20px;
 }
+
 
 .fMenuTitle {
     margin-bottom: 10px;
