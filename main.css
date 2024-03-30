@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+.container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -22,7 +41,8 @@ header {
 }
 
 .logo img {
-    width: 50px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    image-rendering: smooth;
     height: auto;
     margin-right: 10px;
 }
@@ -45,4 +65,91 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ffd700; /* Change the color on hover */
+}
+
+
+.hero {
+    min-height: 80vh;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #244DAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Flex direction to row */
+}
+
+.hero .hero-info {
+    width: 50%; /* Adjust as needed */
+    text-align: center;
+}
+
+.hero .hero-info .hero-info-heading {
+    font-size: 5rem;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.hero .hero-info .hero-info-subheading {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: whitesmoke;
+}
+
+.hero .hero-info .hero-info-button {
+    margin-top: 30px;
+    padding: 2rem 5rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: .6rem;
+    background-color: #333;
+}
+
+.hero .hero-img {
+    height: auto;
+    width: 50%; /* Adjust as needed */
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+
+.fMenuTitle {
+    margin-bottom: 10px;
+}
+
+.fIcons {
+    display: flex;
+}
+
+.fIcon {
+    width: 30px;
+    margin-right: 10px;
 }
