@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #0F1035;
     color: #fff;
     padding: 20px 0;
 }
@@ -61,10 +61,19 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
     color: #ffd700; /* Change the color on hover */
+}
+
+.lorem-ipsum p {
+    font-size: 2rem;
+}
+
+.lorem-ipsum1 p {
+    font-size: 3rem;
 }
 
 
@@ -72,7 +81,7 @@ nav ul li a:hover {
     min-height: 80vh;
     width: 100%;
     padding-top: 50px;
-    background-color: #244DAE;
+    background-color: #365486;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +97,7 @@ nav ul li a:hover {
     font-size: 5rem;
     font-weight: 500;
     color: whitesmoke;
+    
 }
 
 .hero .hero-info .hero-info-subheading {
@@ -95,6 +105,7 @@ nav ul li a:hover {
     text-transform: uppercase;
     letter-spacing: .5rem;
     color: whitesmoke;
+    margin-left: 50px;
 }
 
 .hero .hero-info .hero-info-button {
@@ -115,7 +126,51 @@ nav ul li a:hover {
     margin-left: 20px;
 }
 
+.benefits{
+    font-size: 5rem;
+    font-weight: 500;
+    color: black;
+    background-color: #6EABBB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
 
+.options{
+    font-size: 5rem;
+    font-weight: 500;
+    color: black;
+    background-color: #6EABBB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+.Discover{
+    font-size: 5rem;
+    font-weight: 500;
+    color: #DCF2F1;
+    background-color: #365486;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+.team{
+    font-size: 5rem;
+    font-weight: 500;
+    color: black;
+    background-color: #6EABBB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+
+.about-container-mid{
+    background-color: #365486;
+}
 
 
 .flex-container {
@@ -123,11 +178,12 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
+    background-color: #6EABBB;
     
   }
   
   .flex-container > div1 {
-    background-color: #f1f1f1;
+    background-color: #8BC6C3;
     width: 300px;
     height: 200px;
     margin: 20px;
@@ -135,10 +191,11 @@ nav ul li a:hover {
     line-height: 40px;
     font-size: 20px;
     border: 2px solid black;
+    border-radius: 10px;
   }
   
   .flex-container > div3 {
-    background-color: #f1f1f1;
+    background-color: #8BC6C3;
     width: 300px;
     height: 350px;
     margin: 20px;
@@ -146,12 +203,25 @@ nav ul li a:hover {
     line-height: 40px;
     font-size: 20px;
     border: 2px solid black;
+    color: black;
+    border-radius: 10px;
   }
   
   .flex-container > h1{
     background-color: transparent;
     text-align: center; }
   
+
+
+.flex-container > div2 {
+    background-color: #7FC7D9;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+  }
+
   li{text-align: left;
   }
   ul{padding-left: 35px;
@@ -159,6 +229,66 @@ nav ul li a:hover {
   p{padding-left: 20px;
     text-align: left;
   }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+    
+  p.padding_left{background-color: transparent;
+    text-align: left;
+    padding-left: 80px;
+    }
+    
+  h1.padding_bottom{
+  padding-bottom: 40px;
+  padding-top: 80px;
+  }
+
+  .flip-card-back > p{padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+
+
 
 
 
@@ -167,7 +297,7 @@ nav ul li a:hover {
     max-width: auto ;
     margin: 0 auto;
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #365486;
     display: flex;
     flex-direction: column;
 }
@@ -176,13 +306,16 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 2.5rem;
+    color: white;
 }
 
+
+.lorem-ipsum1,
 .lorem-ipsum,
 .we-are-finxo,
 .videos-and-images {
-    margin-bottom: 2rem;
     width: auto;
+    color: #DCF2F1;
 }
 
 .finxo-title {
@@ -196,6 +329,7 @@ nav ul li a:hover {
     width: 100%;
     justify-content: space-around;
     margin-bottom: 1rem;
+    background-color: #0F1035;
 }
 
 
@@ -206,6 +340,8 @@ nav ul li a:hover {
 .images-container {
     
     justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px ;
 }
 
 .images-container img {
@@ -213,9 +349,7 @@ nav ul li a:hover {
     height: auto;
 }
 
-.lorem-ipsum p {
-    font-size: 2rem;
-}
+
 
 
 
@@ -227,7 +361,7 @@ nav ul li a:hover {
 
 
 footer {
-    background-color: #333;
+    background-color: #365486;
     color: #fff;
     padding: 20px;
     text-align: center;
