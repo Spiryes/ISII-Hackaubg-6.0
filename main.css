@@ -123,6 +123,68 @@ nav ul li a:hover {
 
 
 
+.about-container {
+    max-width: auto ;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.lorem-ipsum,
+.we-are-finxo,
+.videos-and-images {
+    margin-bottom: 2rem;
+    width: auto;
+}
+
+.finxo-title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.video-container {
+    
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+
+.video-container video {
+    width: auto;
+}
+
+.images-container {
+    
+    justify-content: space-around;
+}
+
+.images-container img {
+    width: auto;
+    height: auto;
+}
+
+.lorem-ipsum p {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #333;
