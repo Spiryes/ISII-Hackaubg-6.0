@@ -54,7 +54,7 @@ nav {
   width: 300px;
   margin: 20px;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .flip-card {
@@ -100,11 +100,6 @@ nav {
 h1{
   background-color: transparent;
   text-align: center; }
-  
-p.padding_left_first_sentenced{background-color: transparent;
-  text-align: left;
-  padding-left: 130px;
-  width: auto;}
   
 p.padding_left{background-color: transparent;
   text-align: left;
