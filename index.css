@@ -34,11 +34,38 @@ nav {
     margin-left: 150px;
 }
 
+.left-links a:nth-child(1) {
+    margin-left: 50px;
+}
+.right-links a:nth-child(2){
+    margin-right: 50px;
+}
+
 .logo img {
     max-width: 100px;
     margin-right: 70px;
 }
 
+.product-features {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add padding to create space between text and edges */
+    border-radius: 10px; /* Optional: Add rounded corners for aesthetics */
+}
+
+.product-features h2 {
+    color: #fff; /* Text color for the heading */
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.product-features p {
+    margin-bottom: 15px; /* Add spacing between each feature */
+    line-height: 1.5; /* Increase line height for better readability */
+}
+
+.product-features strong {
+    color: #007bff; /* Change the color of the feature names */
+}
 footer {
     background-color: #333;
     color: #fff;
@@ -90,6 +117,13 @@ footer {
     .logo img {
         
         margin-right: 5%; /* Adjust margin-right percentage */
+    }
+    .product-features {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .product-features p {
+        margin-bottom: 10px; /* Adjust spacing for smaller screens */
     }
 }
 

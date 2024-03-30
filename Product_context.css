@@ -34,6 +34,13 @@ nav {
     margin-left: 150px;
 }
 
+.left-links a:nth-child(1) {
+    margin-left: 50px;
+}
+.right-links a:nth-child(2){
+    margin-right: 50px;
+}
+
 .logo img {
     max-width: 100px;
     margin-right: 70px;
