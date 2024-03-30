@@ -118,7 +118,47 @@ nav ul li a:hover {
 
 
 
-
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    
+  }
+  
+  .flex-container > div1 {
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+  }
+  
+  .flex-container > div3 {
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+  }
+  
+  .flex-container > h1{
+    background-color: transparent;
+    text-align: center; }
+  
+  li{text-align: left;
+  }
+  ul{padding-left: 35px;
+  }
+  p{padding-left: 20px;
+    text-align: left;
+  }
 
 
 
