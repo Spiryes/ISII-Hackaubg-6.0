@@ -117,6 +117,17 @@ nav ul li a {
     height: auto;
 }
 
+.und-ben{
+    width: auto;
+    background-color: #6EABBB;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
 .bf-flex-container {
     display: flex;
     flex-wrap: wrap;
