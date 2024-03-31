@@ -15,8 +15,9 @@ html {
 	height: auto;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -27,12 +28,6 @@ header {
     background-color: #0F1035;
     color: #fff;
     padding: 20px 0;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo {
@@ -64,18 +59,9 @@ nav ul li a {
     font-size: 20px;
 }
 
-nav ul li a:hover {
-    color: #ffd700; /* Change the color on hover */
-}
-
-.lorem-ipsum p {
-    font-size: 2rem;
-}
-
-.lorem-ipsum1 p {
+.CName p {
     font-size: 3rem;
 }
-
 
 .hero {
     min-height: 80vh;
@@ -120,12 +106,6 @@ nav ul li a:hover {
     background-color: #333;
 }
 
-.hero .hero-img {
-    height: auto;
-    width: 50%; /* Adjust as needed */
-    margin-left: 20px;
-}
-
 .benefits{
     font-size: 5rem;
     font-weight: 500;
@@ -134,6 +114,73 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: auto;
+}
+
+.bf-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    background-color: #6EABBB;
+    
+}
+
+.bf-flex-container > div {
+    background-color: #8BC6C3;
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+}
+
+.bf-flex-container > h1{
+    background-color: transparent;
+    text-align: center; 
+}
+
+.Discover{
+    font-size: 5rem;
+    font-weight: 500;
+    color: #DCF2F1;
+    background-color: #365486;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+
+.about-container-mid{
+    background-color: #365486;
+}
+
+.about-container-mid > div{
+    width: auto;
+    color: #DCF2F1;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.videos-and-images {
+    width: auto;
+    color: #DCF2F1;
+}
+
+.images-container {
+    
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px ;
+}
+
+.images-container img {
+    width: auto;
     height: auto;
 }
 
@@ -147,16 +194,58 @@ nav ul li a:hover {
     justify-content: center;
     height: auto;
 }
-.Discover{
-    font-size: 5rem;
-    font-weight: 500;
-    color: #DCF2F1;
-    background-color: #365486;
+
+.Op-flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
+    background-color: #6EABBB;
+    
 }
+  
+  .Op-flex-container > div {
+    background-color: #8BC6C3;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+ul{
+    padding-left: 35px;
+  }
+
+li{
+    text-align: left;
+  }
+
+.id-about-container {
+    max-width: auto ;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #365486;
+    display: flex;
+    flex-direction: column;
+}
+
+.ideals {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.id-about-container > div{
+    width: auto;
+    color: #DCF2F1;
+    font-size: 2rem;
+}
+
 .team{
     font-size: 5rem;
     font-weight: 500;
@@ -168,52 +257,15 @@ nav ul li a:hover {
     height: auto;
 }
 
-.about-container-mid{
-    background-color: #365486;
-}
-
-
-.flex-container {
+.fl-flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
-    background-color: #6EABBB;
-    
+    background-color: #6EABBB; 
   }
-  
-  .flex-container > div1 {
-    background-color: #8BC6C3;
-    width: 300px;
-    height: 200px;
-    margin: 20px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-  }
-  
-  .flex-container > div3 {
-    background-color: #8BC6C3;
-    width: 300px;
-    height: 350px;
-    margin: 20px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    border: 2px solid black;
-    color: black;
-    border-radius: 10px;
-  }
-  
-  .flex-container > h1{
-    background-color: transparent;
-    text-align: center; }
-  
 
-
-.flex-container > div2 {
+  .fl-flex-container > div2 {
     background-color: #7FC7D9;
     width: 300px;
     margin: 20px;
@@ -222,14 +274,6 @@ nav ul li a:hover {
     line-height: 50px;
   }
 
-  li{text-align: left;
-  }
-  ul{padding-left: 35px;
-  }
-  p{padding-left: 20px;
-    text-align: left;
-  }
-  
   .flip-card {
     background-color: transparent;
     width: 300px;
@@ -273,8 +317,7 @@ nav ul li a:hover {
     transform: rotateY(180deg);
   }
     
-  p.padding_left{
-    background-color: transparent;
+  p.padding_left{background-color: transparent;
     text-align: left;
     padding-left: 80px;
     }
@@ -284,86 +327,13 @@ nav ul li a:hover {
   padding-top: 80px;
   }
 
-  .flip-card-back > p{
-    padding-top: 10px;
+  .flip-card-back > p{padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
   }
 
-  
 
-
-
-
-
-.about-container {
-    max-width: auto ;
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: #365486;
-    display: flex;
-    flex-direction: column;
-}
-
-.about-title {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    color: white;
-}
-
-
-.lorem-ipsum1,
-.lorem-ipsum,
-.we-are-finxo,
-.videos-and-images {
-    width: auto;
-    color: #DCF2F1;
-}
-
-.finxo-title {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.video-container {
-    
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 1rem;
-    background-color: #0F1035;
-}
-
-
-.video-container video {
-    width: auto;
-}
-
-.images-container {
-    
-    justify-content: space-around;
-    display: flex;
-    margin-bottom: 20px ;
-}
-
-.images-container img {
-    width: auto;
-    height: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
+  footer {
     background-color: #365486;
     color: #fff;
     padding: 20px;
