@@ -273,8 +273,7 @@ nav ul li a:hover {
     transform: rotateY(180deg);
   }
     
-  p.padding_left{
-    background-color: transparent;
+  p.padding_left{background-color: transparent;
     text-align: left;
     padding-left: 80px;
     }
@@ -284,8 +283,7 @@ nav ul li a:hover {
   padding-top: 80px;
   }
 
-  .flip-card-back > p{
-    padding-top: 10px;
+  .flip-card-back > p{padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
   }
