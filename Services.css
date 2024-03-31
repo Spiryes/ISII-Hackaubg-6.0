@@ -6,6 +6,7 @@ body {
     font-family: "Lato", sans-serif;
     padding: 0;
     margin: 0;
+    background-color: #365486;
 }
 
 footer {
@@ -20,6 +21,38 @@ button{
     width: 8rem;
     padding: 1.4rem;
     cursor: pointer;
-    background: #673de7;
+    background: #6EABBB;
+    color: black;
+    border: 3px solid black;
+    
+}
+
+h1{
+    background-color:  #0F1035;
+    padding: 10px;
+    max-height: fit-content;
     color: white;
+    border: 1px outset black;
+    border-width: 7px;
+}
+h2{
+
+    background-color:  #0F1035;
+    padding: 10px;
+    max-height: fit-content;
+    color: white;
+    border: 1px outset black;
+    border-width: 7px;
+
+}
+li{
+    border: 1px dashed #0F1035;
+    background-color:  #6EABBB;
+}
+
+ul{
+    
+    border: 1px outset #0F1035;
+    border-width: 7px;
+    background-color:  #6EABBB
 }
