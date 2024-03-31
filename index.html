@@ -3,56 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="Index.css">
     <title>Document</title>
 </head>
 <body>
-    <nav id="nav">
-        <div class="left-links">
-            <a href="Product_context.html">Product context</a>
-            <a href="Services.html">Services</a>
+    
+<header>
+    <div class="container">
+        <div class="logo"><img src="./images/logo.png" alt="Logo"><div class="CName"><p>D House</p></div>
         </div>
-        <div class="logo">
-            <img src="./images/logo.png" alt="Logo">
-        </div>
-        <div class="right-links">
-            <a href="About_us.html">About us</a>
-            <a href="Contact">Contact</a>
-        </div>
-    </nav>
-    <h1>D House</h1>
-    <h2>Benefits</h2>
-    <p>Better utilization on cost - no need </p>
-    <p>No need to create and train for datebase managment</p>
-    <p>Low lose of data in trancver</p>
-
-    <div class="product-features">
-        <h2>Features</h2>
-        <p><strong>Blazing Fast:</strong> Redefine speed in analytical processing with our product. Outpacing traditional row and column-oriented systems, it ensures queries are processed swiftly and efficiently.</p>
-    
-        <p><strong>Linearly Scalable:</strong> Grow without limits. Our solution scales seamlessly with your needs, expanding horizontally or vertically, up to petabyte-scale. Experience consistent performance even as data volumes soar.</p>
-    
-        <p><strong>Highly Reliable:</strong> Trust in uninterrupted operations. With asynchronous replication and the ability to deploy across multiple data centers, ensure data remains accessible and secure, minimizing downtime and maximizing reliability.</p>
-    
-        <p><strong>Flexible Architecture:</strong> Adapt with ease. Our solution supports diverse architectural setups, from shared-nothing clusters to separating storage and compute. Tailor your infrastructure to fit your exact requirements without compromising performance.</p>
-    
-        <p><strong>Feature-Rich:</strong> Explore boundless possibilities. Offering unparalleled features including support for joins, federated queries, and more, unlock the full potential of your data with our product.</p>
+        <nav>
+            <ul class="nav-link">
+                <li><a href="#Contact">Contact Us</a></li>
+                <li><a href="#Benefits">Benefits</a></li>
+                <li><a href="#Discover">Discover</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#The_Team">The Team</a></li>
+            </ul>
+        </nav>
     </div>
-    <h2>Description</h2>
-    <h2>Clients</h2>
-    <footer>
-        <div class="footer">
-            <div class="footerRightMenu">
-                <h1 class="fMenuTitle">Follow Us</h1>
-                <div class="fIcons">
-                    <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt="" class="fIcon">
-                    <a href="https://twitter.com/?lang=bg"><img src="./images/twitter.png" alt="" class="fIcon">
-                    <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt="" class="fIcon">
-                    <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt="" class="fIcon">
-                    </a>
-                </div>
+</header>
+
+<section id="hero" class="hero container">
+    <div class="hero-info">
+        <h1 class="hero-info-heading" id="Contact">WILL DOUBLE<br>PREFORMANCE OF YOUR DATA</h1>
+        <p class="hero-info-subheading">LESS STORAGE. DOUBLE SPEED. OPTIMISE RESULT.</p>
+        <a href="Contact.html" class="hero-info-button">Contact Us</a>
+    </div>
+    <div class="hero-img">
+        <img src="./images/image_1.png" alt="">
+    </div>
+</section>
+
+<h1  id="Benefits" class="benefits">Benefits</h1>
+<div class="bf-flex-container">	
+  <div>
+    <h1>Utilization of <br/> cost</h1> 
+         <p>Seamlessly scale infrastructure to accommodate growing promotional needs without breaking the budget.</p>
+    </div>
+    <div>
+    <h1>Maintenance-Free</h1> 
+        <p>
+        We provided services relieve businesses of maintenance responsibilities, enabling full focus on leveraging promotional insights for strategic decision-making.
+        </p>
+    </div>
+    <div>
+    <h1>Reliable Performance</h1> 
+        <p>
+        Ensure uninterrupted access to promotional data with ClickHouse's dependable and fault-tolerant architecture.
+        </p>  
+    </div>     
+</div>
+
+<h1  id="Benefits" class="benefits"> Who would benefit from us and how</h1>
+<div class="bf-flex-container">	
+  <div>
+    <h1>Companies</h1> 
+    <ul>
+        <li>Cost Savings</li>
+        <li>Improved Performance</li>
+        <li>Scalability</li>
+        <li>Competitive Advantage</li>
+    </ul>
+    </div>
+<div>
+    <h1>IT Departments</h1> 
+    <ul>
+            <li>Simplified Management</li>
+            <li>Automation</li>
+            <li>Enhanced Security</li>
+    </ul>
+</div>
+<div>
+    <h1>Data Analysts and Scientists</h1> 
+    <ul>
+            <li>Faster Insights</li>
+            <li>Advanced Analytics</li>
+            <li>Interactive Data Exploration</li>
+    </ul>
+</div>
+<div>
+    <h1>Executives and Decision Makers</h1> 
+    <ul>
+            <li>Real-Time Reporting</li>
+            <li>Strategic Planning</li>
+            <li>Risk Mitigation</li>
+    </ul>
+</div>    
+</div>
+
+<h1 id="Discover" class="Discover" >Discover ClickHouse: The Ultimate Solution for Big Data in Businesses.</h1>
+<div class="about-container-mid">
+    <div>
+      <p>ClickHouse stands out as the superior choice among databases due to its column-oriented architecture, a stark contrast to the row-oriented structures of MySQL and PostgreSQL. Our tests have showcased remarkable performance differentials, demonstrating ClickHouse's unparalleled efficiency. Creating a table in MySQL took 0.03 seconds, whereas the same process in ClickHouse completed in a mere 0.011 seconds. Similarly, executing an insert query with 1000 rows revealed a substantial time advantage for ClickHouse, clocking in at just 0.027 seconds compared to MySQL's 0.06 seconds.</p>
+    </div>
+  
+    <div class="videos-and-images">
+        <div class="images-container">
+          <img src="./videos/Untitled.gif" alt="Animated GIF">
+          <img src="./images/Mysql1.png" alt="Image 1">
+        </div>
+        <div class="images-container">
+        <img src="./videos/Untitled2.gif" alt="Animated GIF">
+          <img src="./images/clickHouse.png" alt="Image 2">
+        </div>
+    </div>
+
+    <div>
+        <p>Beyond these impressive benchmarks, ClickHouse excels in scalability, offering seamless horizontal scaling across multiple servers for enhanced performance and capacity. Its extensive support for a wide range of data types and seamless integration with leading technologies like Apache Kafka and Apache Spark further solidify ClickHouse's position as the ultimate solution for businesses grappling with the challenges of managing large volumes of data.</p>
+    </div>
+</div>
+
+<h1 id="Services" class="services">Services</h1>
+<div class="Op-flex-container">	
+    <div>
+        <h1>Cloud</h1> 
+        <ul>
+        <li>Scalability.</li> 
+        <li>Cost efficiency.</li>
+        <li>Automatic Software Updates.</li>
+        </ul>
+        <a href="Services.html">Want to learn more...</a>
+    </div>
+    <div>
+    <h1>Your Servers</h1> 
+        <ul>
+        <li>Cost Control.</li> 
+        <li>Customization.</li>
+        <li>Offline Access.</li>
+        </ul>
+        <a href="Services.html">Want to learn more...</a> 
+    </div>
+    <div>
+    <h1>Rent Servers</h1> 
+        <ul>
+        <li>Continuous Innovation.</li> 
+        <li>Global Reach.</li>
+        <li>Managed Services.</li>
+        </ul>
+        <a href="Services.html">Want to learn more...</a>
+    </div>     
+</div>
+
+<div class="id-about-container">
+    <h1 class="ideals">The Ideals</h1>
+    <div><p>We are innovative young people who have insight into the future of technologies with the goal of improving our nation and the world. We have chosen to advance database technologies and improve their uses to allow for a better enviromential footprint for major companies. With our work we have the hope to create a better work space when we lower the need for companies to invest in redundant and everchanging technologies that they cant settle down with.</p></div>
+</div>
+
+<h1 id="The_Team" class="team">The Team</h1>
+<div class="fl-flex-container">
+	<div2 class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="./images/BobiA.jpg" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+          <div class="flip-card-back">
+            <h1>Bobi Aladzhov</h1> 
+            <p>TU-Sofia, Bulgaria.</p> 
+            <p>Head Website design and html.</p>
+          </div>
+        </div>
+        </div2>
+    <div2 class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="./images/NataliA.jpg" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Natali Atanasova</h1> 
+              <p>TU-Sofia, Bulgaria.</p> 
+              <p>Documentation and Presentation</p>
             </div>
         </div>
-    </footer>
+        </div2>
+    <div2 class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="./images/Nasko.PNG" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Atanas Ninov</h1> 
+              <p>TU-Sofia, Bulgaria.</p> 
+              <p>Website and logo design and css final touch.</p>
+            </div>
+        </div>
+        </div2>
+    <div2 class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="./images/StefanV.jpg" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Stefan Vasilev</h1> 
+              <p>TU-Sofia, Bulgaria.</p> 
+              <p>Data base and module integration.</p>
+            </div>
+        </div>
+        </div2>
+    <div2 class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="./images/SofroniN1.jpg" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Sofroni Nenov</h1> 
+              <p>TU-Sofia, Bulgaria.</p> 
+              <p>HTML and css for some pages.</p>
+            </div>
+        </div>
+    </div2>
+</div>
+
+<footer>
+    <div class="footer">
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Follow Us</h1>
+            <div class="fIcons">
+                <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt="" class="fIcon">
+                <a href="https://twitter.com/?lang=bg"><img src="./images/twitter.png" alt="" class="fIcon">
+                <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt="" class="fIcon">
+                <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" alt="" class="fIcon">
+                </a>
+            </div>
+        </div>
+    </div>
+  </footer>
+
 </body>
 </html>
