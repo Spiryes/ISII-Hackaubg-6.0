@@ -142,10 +142,11 @@ nav ul li a {
 .bf-flex-container > h1{
     background-color: transparent;
     text-align: center; 
+
 }
 
 .Discover{
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 500;
     color: #DCF2F1;
     background-color: #365486;
@@ -153,6 +154,7 @@ nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
+    padding-top: 10px;
 }
 
 .about-container-mid{
@@ -163,8 +165,11 @@ nav ul li a {
     width: auto;
     color: #DCF2F1;
     padding-left: 20px;
-    text-align: left;
-    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
 }
 
 .videos-and-images {
@@ -244,6 +249,8 @@ li{
     width: auto;
     color: #DCF2F1;
     font-size: 2rem;
+    text-align: center;
+    letter-spacing: 5px;
 }
 
 .team{
