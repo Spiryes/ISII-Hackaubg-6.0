@@ -7,3 +7,19 @@ body {
     padding: 0;
     margin: 0;
 }
+
+footer {
+    background-color: #365486;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    justify-content: center; /* Center content horizontally */
+}
+
+button{
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    background: #673de7;
+    color: white;
+}
