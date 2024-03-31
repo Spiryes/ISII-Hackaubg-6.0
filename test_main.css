@@ -369,3 +369,8 @@ li{
     width: 30px;
     margin-right: 10px;
 }
+
+.flip-card-front > img{
+
+    border-radius: 10px;
+}
